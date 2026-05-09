@@ -134,7 +134,7 @@ END:VCARD`
 
 // ---- Caption (alive.js style bot details) ----
 const caption = `
-╭━〔 *MUZAMIL-XD* 〕━··๏
+╭━〔 *MUZAMIL-XD CONNECTED* 〕━··๏
 ┃★╭──────────────
 ┃★│ 👑 Owner : *MUZAMIL KHAN*
 ┃★│ 🤖 Baileys : *Multi Device*
@@ -143,6 +143,7 @@ const caption = `
 ┃★│ ⚙️ Mode : *Public*
 ┃★│ 🔣 Prefix : *[ . ]*
 ┃★│ 🏷️ Version : *8.0.0*
+┃★│ > *_DONT SHARE THIS SESSION-ID WITH ANY. ( YOU CAN SHARE WITH BOT OWNER )_*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━┈⊷`;
 
@@ -150,7 +151,7 @@ const caption = `
 await sock.sendMessage(
   jid,
   {
-    image: { url: "https://res.cloudinary.com/di2a9lenz/image/upload/v1777634329/omegatech_media/d7riz8sz6yq3avzq7vaf.jpg" },
+    image: { url: "https://i.ibb.co/zWcy7SN0/file-00000000ee44720780e7d48e5a91fdf9.png" },
     caption,
     contextInfo: {
       mentionedJid: [jid],
